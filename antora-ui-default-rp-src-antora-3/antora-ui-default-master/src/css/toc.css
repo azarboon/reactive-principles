@@ -1,5 +1,6 @@
 .toc-menu {
   color: var(--toc-font-color);
+  font-family: var(--heading-font-family);
 }
 
 .toc.sidebar .toc-menu {

@@ -96,6 +96,7 @@
   padding: 0.5rem 0.75rem;
   line-height: var(--nav-line-height);
   position: relative;
+  font-family: var(--heading-font-family);
 }
 
 .nav-menu-toggle {
@@ -182,7 +183,7 @@
 
 .nav-panel-explore {
   background: var(--nav-background);
-  display: flex;
+  display: var(--nav-panel-explore-display);
   flex-direction: column;
   position: absolute;
   top: 0;
