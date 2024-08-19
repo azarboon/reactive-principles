@@ -48,7 +48,7 @@
   position: absolute;
   z-index: 100;
   display: block;
-  left: -50px;
+  left: -50px !important;
   top: 100%;
   border-radius: 4px;
   margin: 6px 0 0;
@@ -63,8 +63,9 @@
 
 @media screen and (max-width: 768px) {
   .search-result-dropdown-menu {
-    left: 0;
-    width: 100%;
+    left: 0 !important;
+    width: 400px !important;
+    min-width: auto !important;
   }
 
   .navbar-brand .navbar-item + .navbar-item {
