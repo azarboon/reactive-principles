@@ -8,11 +8,10 @@ The source files for this guide use asciidoc syntax and the project is configure
 
 To build this guide locally, follow these steps:
 
-. Follow the steps to install Antora that are described here: https://docs.antora.org/antora/2.0/install/install-antora/.
+. Follow the steps to install Antora that are described here: https://docs.antora.org/antora/latest/install-and-run-quickstart/.
 . Run `npm install -g asciidoc-link-check`
-. Optional, to build with search enabled: Add the antora-lunr integration: https://github.com/Mogztter/antora-lunr by following the readme steps outlined in the *Generate an index file* section *only*. You do not need to enable search in the UI. 
 
-The command for building without search:
+The command for building:
 ````
 antora playbook.yml
 ````
